@@ -1,6 +1,7 @@
 import math
 
-class Rules:
+
+class sudoku_rules:
     def __init__(self, width):
         self.width = width
         self.square_root = int(round(self.width**(1/2.0)))
@@ -75,5 +76,8 @@ class Rules:
         new_state[position] = value
 
         return new_state
+
+    def cost(self, state, action):
+        return 1
 
 

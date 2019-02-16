@@ -1,5 +1,7 @@
 import argparse
-import sudoku.rules as sr
+from sudoku.rules import sudoku_rules
+from sudoku.sudoku_problem import sudoku_problem
+from graphsearch.graph_search import gen_criteria, graph_search, a_star
 
 # get sudoku
 ap = argparse.ArgumentParser()
@@ -16,10 +18,17 @@ if len(data) != 16:
 sudoku = list(data)
 sudoku = list(map(lambda x: 0 if x == '.' else int(x), sudoku))
 
-rule = sr.Rules(4)
+sudoku_problem = sudoku_problem(4, sudoku)
 
-for r in rule.get_all_possibles(sudoku):
-    print (r)
+a_star_criteria = gen_criteria(a_star)
+
+explored = [[]]
+
+result = graph_search(sudoku_problem, a_star_criteria)
+
+print(result)
+
+
 
 
 
