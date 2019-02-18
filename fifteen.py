@@ -1,5 +1,5 @@
 import argparse
-from sudoku.sudoku_problem import sudoku_problem
+from fifteen.fifteen_problem import fifteen_problem
 from graphsearch.graph_search import gen_criteria, graph_search, a_star
 
 # get sudoku
@@ -14,25 +14,13 @@ if len(data) != 16:
     print("Hay información de más o de menos")
     exit()
 
-sudoku = list(data)
-sudoku = list(map(lambda x: 0 if x == '.' else int(x), sudoku))
+board = list(data)
+board = list(map(lambda x: x if x != '.' else '0', board))
 
-sudoku_problem = sudoku_problem(4, sudoku)
+fifteen_problem = fifteen_problem(board)
 
 a_star_criteria = gen_criteria(a_star)
 
-explored = [[]]
-
-result = graph_search(sudoku_problem, a_star_criteria)
+result = graph_search(fifteen_problem, a_star_criteria)
 
 print(result)
-
-
-
-
-
-
-
-
-
-

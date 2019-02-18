@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cc72722-e231-4458-9296-8eb0e0c38b76" name="Default Changelist" comment="" />
+    <list default="true" id="7cc72722-e231-4458-9296-8eb0e0c38b76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fifteen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fifteen/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fifteen/fifteen_problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphsearch/graph_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphsearch/graph_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudoku.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudoku/rules.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,56 +58,83 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1308600535">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="3317" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="3317" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph/node.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-              <folding>
-                <marker date="1549733223552" expanded="true" signature="14:19" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph/graph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding>
-                <marker date="1549734266212" expanded="true" signature="13:18" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphsearch/problem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding>
-                <marker date="1549751322811" expanded="true" signature="14:19" ph="..." />
-                <marker date="1549751322811" expanded="true" signature="53:142" ph="..." />
-                <marker date="1549751322811" expanded="true" signature="160:214" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sudoku/rules.py">
+        <entry file="file://$PROJECT_DIR$/fifteen/fifteen_problem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="54" selection-end-column="41" />
+            <state relative-caret-position="327">
+              <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
               <folding>
-                <marker date="1550012511658" expanded="true" signature="12:13" ph="..." />
-                <marker date="1550012511658" expanded="true" signature="25:217" ph="..." />
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1550452198019" expanded="true" signature="232:233" ph="..." />
+                <marker date="1550452198019" expanded="true" signature="2822:2845" ph="..." />
+                <marker date="1550452198019" expanded="true" signature="2882:2947" ph="..." />
+                <marker date="1550452198019" expanded="true" signature="2992:3328" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sudoku/sudoku_problem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="23" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fifteen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphsearch/graph_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="38" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -107,12 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sudoku.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1550012537982" expanded="true" signature="42:43" ph="..." />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -128,9 +159,20 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>print</find>
       <find>get_emp</find>
+      <find>explored</find>
+      <find>step</find>
+      <find>'.</find>
+      <find>pr</find>
+      <find>ym</find>
+      <find>y</find>
+      <find>print</find>
+      <find>goal</find>
+      <find>pri</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -140,8 +182,11 @@
         <option value="$PROJECT_DIR$/graph/graph.py" />
         <option value="$PROJECT_DIR$/sudoku/__init__.py" />
         <option value="$PROJECT_DIR$/graphsearch/problem.py" />
-        <option value="$PROJECT_DIR$/sudoku.py" />
         <option value="$PROJECT_DIR$/sudoku/rules.py" />
+        <option value="$PROJECT_DIR$/sudoku.py" />
+        <option value="$PROJECT_DIR$/fifteen.py" />
+        <option value="$PROJECT_DIR$/graphsearch/graph_search.py" />
+        <option value="$PROJECT_DIR$/fifteen/fifteen_problem.py" />
       </list>
     </option>
   </component>
@@ -201,23 +246,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="AI-GraphSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AI-GraphSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="AI-SearchGraph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI-SearchGraph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AI-GraphSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AI-GraphSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="graphsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="AI-SearchGraph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI-SearchGraph" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,19 +297,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="30" width="1311" height="738" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2632831" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22045995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.1281198" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2533557" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3294702" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -301,17 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sudoku.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1550012537982" expanded="true" signature="42:43" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graph/graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -322,25 +357,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sudoku/rules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/graphsearch/problem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="240">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudoku/sudoku_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="23" selection-end-column="42" />
           <folding>
-            <marker date="1549751322811" expanded="true" signature="14:19" ph="..." />
-            <marker date="1549751322811" expanded="true" signature="53:142" ph="..." />
-            <marker date="1549751322811" expanded="true" signature="160:214" ph="..." />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sudoku/rules.py">
+    <entry file="file://$PROJECT_DIR$/sudoku.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="54" selection-end-column="41" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fifteen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
-            <marker date="1550012511658" expanded="true" signature="12:13" ph="..." />
-            <marker date="1550012511658" expanded="true" signature="25:217" ph="..." />
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphsearch/graph_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fifteen/fifteen_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1550452198019" expanded="true" signature="232:233" ph="..." />
+            <marker date="1550452198019" expanded="true" signature="2822:2845" ph="..." />
+            <marker date="1550452198019" expanded="true" signature="2882:2947" ph="..." />
+            <marker date="1550452198019" expanded="true" signature="2992:3328" ph="..." />
           </folding>
         </state>
       </provider>

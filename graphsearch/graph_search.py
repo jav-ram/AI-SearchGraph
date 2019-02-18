@@ -9,7 +9,6 @@ def graph_search(problem, criteria):
             s = path[-1].copy()
             explored.append(s)
 
-
             if problem.goal_test(s):
                 return path
 
@@ -37,6 +36,8 @@ def gen_criteria(condition):
         for f in frontier:
             target = condition(f, target, problem)
 
+        print(target[-1])
+
         frontier.remove(target)
 
         return target
@@ -55,13 +56,11 @@ def a_star(frontier, target, problem):
 
     target_total = float(problem.path_cost(target) + problem.heuristic(target[-2], target_action))
 
-
     if frontier_total < target_total:
         return frontier
 
     else:
         return target
-
 
 
 def is_explored(path, result, explored):
