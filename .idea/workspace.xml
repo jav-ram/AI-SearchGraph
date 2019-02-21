@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc72722-e231-4458-9296-8eb0e0c38b76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fifteen/solvable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fifteen.py" beforeDir="false" afterPath="$PROJECT_DIR$/fifteen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fifteen/fifteen_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/fifteen/fifteen_problem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphsearch/graph_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphsearch/graph_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fifteen/solvable.py" beforeDir="false" afterPath="$PROJECT_DIR$/fifteen/solvable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graphsearch/list_to_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphsearch/list_to_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudoku.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudoku/sudoku_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudoku/sudoku_problem.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,37 +71,50 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="py" value="10" />
+          <entry key="py" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Python" value="10" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5601" />
+          <entry key="py" value="6003" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5601" />
+          <entry key="Python" value="6003" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fifteen/fifteen_problem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="147" column="83" selection-start-line="147" selection-start-column="83" selection-end-line="147" selection-end-column="83" />
+            <state relative-caret-position="212">
+              <caret line="144" column="31" selection-start-line="144" selection-start-column="31" selection-end-line="144" selection-end-column="31" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <marker date="1550774666796" expanded="true" signature="232:233" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fifteen/solvable.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <marker date="1550776534692" expanded="true" signature="21:26" ph="..." />
+                <marker date="1550776534692" expanded="true" signature="424:649" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,13 +129,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sudoku/sudoku_problem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="120" selection-end-column="19" />
+            <state relative-caret-position="15">
+              <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="97" selection-end-column="38" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+                <marker date="1550776801606" expanded="true" signature="2786:2968" ph="..." />
               </folding>
             </state>
           </provider>
@@ -149,10 +157,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphsearch/list_to_table.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="132">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
               <folding>
-                <marker date="1550767529206" expanded="true" signature="673:674" ph="..." />
+                <marker date="1550776539426" expanded="true" signature="666:667" ph="..." />
               </folding>
             </state>
           </provider>
@@ -195,8 +203,8 @@
       <find>is_</find>
       <find>pat</find>
       <find>is_explored</find>
-      <find>step</find>
       <find>print</find>
+      <find>step</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -212,17 +220,17 @@
         <option value="$PROJECT_DIR$/graphsearch/problem.py" />
         <option value="$PROJECT_DIR$/sudoku/rules.py" />
         <option value="$PROJECT_DIR$/sudoku.py" />
-        <option value="$PROJECT_DIR$/graphsearch/list_to_table.py" />
         <option value="$PROJECT_DIR$/fifteen.py" />
-        <option value="$PROJECT_DIR$/fifteen/solvable.py" />
-        <option value="$PROJECT_DIR$/sudoku/sudoku_problem.py" />
         <option value="$PROJECT_DIR$/graphsearch/graph_search.py" />
         <option value="$PROJECT_DIR$/fifteen/fifteen_problem.py" />
+        <option value="$PROJECT_DIR$/fifteen/solvable.py" />
+        <option value="$PROJECT_DIR$/graphsearch/list_to_table.py" />
+        <option value="$PROJECT_DIR$/sudoku/sudoku_problem.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="334" />
+    <option name="x" value="55" />
     <option name="y" value="30" />
     <option name="width" value="622" />
     <option name="height" value="561" />
@@ -323,6 +331,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="solvable" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fifteen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fifteen/solvable.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.solvable" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -340,12 +376,12 @@
     <frame x="55" y="30" width="1311" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.259318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116574146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,41 +449,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphsearch/list_to_table.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <marker date="1550767529206" expanded="true" signature="673:674" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fifteen/solvable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1550769563179" expanded="true" signature="21:26" ph="..." />
-            <marker date="1550769563179" expanded="true" signature="393:581" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fifteen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sudoku/sudoku_problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="120" selection-end-column="19" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -463,11 +468,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fifteen/fifteen_problem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="147" column="83" selection-start-line="147" selection-start-column="83" selection-end-line="147" selection-end-column="83" />
+        <state relative-caret-position="212">
+          <caret line="144" column="31" selection-start-line="144" selection-start-column="31" selection-end-line="144" selection-end-column="31" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <marker date="1550774666796" expanded="true" signature="232:233" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fifteen/solvable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <marker date="1550776534692" expanded="true" signature="21:26" ph="..." />
+            <marker date="1550776534692" expanded="true" signature="424:649" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphsearch/list_to_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding>
+            <marker date="1550776539426" expanded="true" signature="666:667" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudoku/sudoku_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="97" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1550776801606" expanded="true" signature="2786:2968" ph="..." />
           </folding>
         </state>
       </provider>

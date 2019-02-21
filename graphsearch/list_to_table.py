@@ -1,6 +1,6 @@
 import os
 
-def get_table_sudoku(data, row_length):
+def get_table(data, row_length):
     table = '<table>'
     counter = 0
     for element in data:
@@ -30,7 +30,7 @@ def get_sudoku_table(states, size, name):
            '<body>'
 
     for step in states:
-        html += get_table_sudoku(step, size)
+        html += get_table(step, size)
 
     html += '</body></html>'
 
@@ -48,7 +48,7 @@ def get_fifteen_table(states, size, name):
            '<body>'
 
     for step in states:
-        html += get_table_sudoku(step, size)
+        html += get_table(step, size)
 
     html += '</body></html>'
 
