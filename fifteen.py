@@ -1,3 +1,4 @@
+import time
 import argparse
 from fifteen.fifteen_problem import fifteen_problem
 from graphsearch.graph_search import gen_criteria, graph_search, a_star
@@ -21,6 +22,11 @@ fifteen_problem = fifteen_problem(board)
 
 a_star_criteria = gen_criteria(a_star)
 
+
+start = time.time()
 result = graph_search(fifteen_problem, a_star_criteria)
+end = time.time()
+
 
 print(result)
+print(end - start)

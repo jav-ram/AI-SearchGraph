@@ -1,3 +1,4 @@
+import bisect
 
 def graph_search(problem, criteria):
     frontier = [[problem.initial()]]
@@ -5,7 +6,7 @@ def graph_search(problem, criteria):
 
     while True:
         if len(frontier):
-            path = criteria(frontier, problem).copy()
+            path = criteria(frontier, problem)
             s = path[-1].copy()
             explored.append(s)
 
@@ -13,7 +14,7 @@ def graph_search(problem, criteria):
                 return path
 
             for a in problem.actions(s):
-                result = problem.result(s, a).copy()
+                result = problem.result(s, a)
 
                 if not is_explored(path.copy(), result, explored):
                     new_path = []
@@ -36,8 +37,6 @@ def gen_criteria(condition):
         for f in frontier:
             target = condition(f, target, problem)
 
-        print(target[-1])
-
         frontier.remove(target)
 
         return target
@@ -47,14 +46,13 @@ def gen_criteria(condition):
 
 def a_star(frontier, target, problem):
     frontier_action = problem.states_to_action(frontier[-2], frontier[-1])
-    frontier_total = float(problem.path_cost(frontier) + problem.heuristic(frontier[-2], frontier_action))
+    frontier_total = problem.path_cost(frontier) + problem.heuristic(frontier[-2], frontier_action)
 
     if target == 0:
         return frontier
 
     target_action = problem.states_to_action(target[-2], target[-1])
-
-    target_total = float(problem.path_cost(target) + problem.heuristic(target[-2], target_action))
+    target_total = problem.path_cost(target) + problem.heuristic(target[-2], target_action)
 
     if frontier_total < target_total:
         return frontier

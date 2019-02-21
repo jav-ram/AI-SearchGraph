@@ -1,6 +1,8 @@
+import os
 import argparse
 from sudoku.sudoku_problem import sudoku_problem
 from graphsearch.graph_search import gen_criteria, graph_search, a_star
+from graphsearch.list_to_table import get_sudoku_table
 
 # get sudoku
 ap = argparse.ArgumentParser()
@@ -25,7 +27,7 @@ explored = [[]]
 
 result = graph_search(sudoku_problem, a_star_criteria)
 
-print(result)
+get_sudoku_table(result, 4)
 
 
 

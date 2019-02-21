@@ -84,10 +84,9 @@ class sudoku_problem(Problem):
     # GOAL TEST
     def goal_test(self, state):
         # checkea todas las posiciones y verifica que la cantidad de Numeros que NO se pueden poner sea == width
-        for j in range(0, self.size):
-            for i in range(0, self.size):
-                if len(self.__not_possibles(state, i, j)) != self.size:
-                    return False
+        for s in state:
+            if s == 0:
+                return False
         return True
 
     # COST
@@ -95,6 +94,7 @@ class sudoku_problem(Problem):
         y = int(action['position'] / self.size)
         x = action['position'] % self.size
         cant = self.__possibles(state, x, y)
+
         return (len(cant) / self.size)
 
     def states_to_action(self, state_1, state_2):
@@ -117,7 +117,11 @@ class sudoku_problem(Problem):
     def heuristic(self, state, action):
         new_state = self.result(state, action)
         empties = self.__get_empties(new_state)
-        return len(empties)
+        cant = len(empties)
+        if cant < 3:
+            print(cant)
+            print(state)
+        return cant
 
 
 
