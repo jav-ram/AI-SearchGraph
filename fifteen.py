@@ -2,6 +2,7 @@ import time
 import argparse
 from fifteen.fifteen_problem import fifteen_problem
 from graphsearch.graph_search import gen_criteria, graph_search, a_star
+from graphsearch.list_to_table import get_fifteen_table
 
 # get sudoku
 ap = argparse.ArgumentParser()
@@ -27,6 +28,6 @@ start = time.time()
 result = graph_search(fifteen_problem, a_star_criteria)
 end = time.time()
 
-
-print(result)
 print(end - start)
+
+get_fifteen_table(result, 4, 'fifteen.html')

@@ -1,4 +1,4 @@
-import bisect
+
 
 def graph_search(problem, criteria):
     frontier = [[problem.initial()]]
@@ -36,6 +36,8 @@ def gen_criteria(condition):
 
         for f in frontier:
             target = condition(f, target, problem)
+
+        print(target[-1])
 
         frontier.remove(target)
 

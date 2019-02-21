@@ -6,7 +6,7 @@ def get_table_sudoku(data, row_length):
     for element in data:
         if counter % row_length == 0:
             table += '<tr>'
-        if element == 0:
+        if element == 0 or element == '0':
             table += '<td class="empty">%s</td>' % element
         else:
             table += '<td>%s</td>' % element
@@ -21,7 +21,7 @@ def get_table_sudoku(data, row_length):
     return table
 
 
-def get_sudoku_table(states, size):
+def get_sudoku_table(states, size, name):
     html = '<!DOCTYPE html>' \
            '<html>' \
            '<head> \
@@ -29,13 +29,30 @@ def get_sudoku_table(states, size):
             </head>' \
            '<body>'
 
+    for step in states:
+        html += get_table_sudoku(step, size)
 
+    html += '</body></html>'
+
+    with open(os.path.join('./', name), "w") as file:
+        file.write(html)
+    return 0
+
+
+def get_fifteen_table(states, size, name):
+    html = '<!DOCTYPE html>' \
+           '<html>' \
+           '<head> \
+                <link rel="stylesheet" type="text/css" href="fifteen.css"> \
+            </head>' \
+           '<body>'
 
     for step in states:
         html += get_table_sudoku(step, size)
 
     html += '</body></html>'
 
-    with open(os.path.join('./', 'resultado.html'), "w") as file:
+    with open(os.path.join('./', name), "w") as file:
         file.write(html)
     return 0
+

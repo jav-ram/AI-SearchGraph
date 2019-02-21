@@ -102,22 +102,10 @@ class fifteen_problem(Problem):
 
     # STEP COST
     def step_cost(self, state, action):
-        #cant = []
-        #new_state = self.result(state, action)
-        #r = 0
-        #for i in range(0, len(new_state) - 1):
-        #    if new_state[i] == '0' or new_state[i+1] == '0':
-        #        r += 0
-        #    elif int(new_state[i], 16) +1 == int(new_state[i+1], 16):
-        #        r += 1
-        #    else:
-        #        cant.append(r)
-        #        r = 0
-
         return 1
 
     def __distance(self, x1, y1, x2, y2):
-        return math.sqrt((x1 - x2)**2 + abs(y1 - y2)**2)
+        return math.sqrt((x1 - x2)**2 + (y1 - y2)**2)
 
     def states_to_action(self, state_1, state_2):
         position_1 = self.__get_position(state_1)
@@ -136,10 +124,10 @@ class fifteen_problem(Problem):
 
     # PATH COST
     def path_cost(self, states):
-        total_cost = 0
-        for i in range(0, len(states) - 1):
-            action = self.states_to_action(states[i], states[i + 1])
-            total_cost += self.step_cost(states[i], action)
+        #total_cost = 0
+        #for i in range(0, len(states) - 1):
+        #    action = self.states_to_action(states[i], states[i + 1])
+        #    total_cost += self.step_cost(states[i], action)
         return 0
 
     # HEURISTIC
@@ -157,7 +145,7 @@ class fifteen_problem(Problem):
                 y2 = int(correct_position / 4)
                 x2 = correct_position % 4
 
-                result += (self.__distance(x1, y1, x2, y2)) * ((i % 4) +1)
+                result += (self.__distance(x1, y1, x2, y2)) * (correct_position + 1)
         return result
 
 

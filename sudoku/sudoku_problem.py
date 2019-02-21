@@ -118,9 +118,6 @@ class sudoku_problem(Problem):
         new_state = self.result(state, action)
         empties = self.__get_empties(new_state)
         cant = len(empties)
-        if cant < 3:
-            print(cant)
-            print(state)
         return cant
 
 

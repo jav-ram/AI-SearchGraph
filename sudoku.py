@@ -27,7 +27,7 @@ explored = [[]]
 
 result = graph_search(sudoku_problem, a_star_criteria)
 
-get_sudoku_table(result, 4)
+get_sudoku_table(result, 4, 'sudoku.html')
 
 
 
