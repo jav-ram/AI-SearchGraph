@@ -102,7 +102,7 @@ class fifteen_problem(Problem):
 
     # STEP COST
     def step_cost(self, state, action):
-        return 1
+        return 0
 
     def __distance(self, x1, y1, x2, y2):
         return math.sqrt((x1 - x2)**2 + (y1 - y2)**2)
